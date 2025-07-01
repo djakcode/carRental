@@ -7,8 +7,8 @@ const Footer = () => {
         <div>
           <img src={assets.logo} alt="logo" className="h-8 md:h-9" />
           <p className="max-w-80 mt-3">
-            Service de location de voitures haut de gamme avec un large choix de
-            véhicules de luxe et de tous les jours pour tous les besoins de
+            Service de location de véhicules haut de gamme avec un large choix
+            de véhicules de luxe et de tous les jours pour tous les besoins de
             conduite.
           </p>
           <div className="flex items-center gap-3 mt-6">

@@ -21,9 +21,9 @@ const CarCard = ({ car }) => {
         "
         />
 
-        {car.isAvailable && (
-          <p className="absolute top-4  left-4 bg-primary/90 text-white text-xs py-1 rounded-full">
-            Disponible maintenant
+        {car.isAvaliable && (
+          <p className="absolute top-4  left-4 bg-primary/90 text-white text-xs p-1 rounded-full">
+            Disponible
           </p>
         )}
 

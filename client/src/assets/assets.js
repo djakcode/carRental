@@ -1,3 +1,4 @@
+import logoBleu from "./logoBleu.svg";
 import logo from "./logo.svg";
 import gmail_logo from "./gmail_logo.svg";
 import facebook_logo from "./facebook_logo.svg";
@@ -51,6 +52,7 @@ export const cityList = [
 ];
 
 export const assets = {
+  logoBleu,
   logo,
   gmail_logo,
   facebook_logo,
@@ -103,25 +105,25 @@ export const menuLinks = [
 
 export const ownerMenuLinks = [
   {
-    name: "Dashboard",
+    name: "Tableau De Bord",
     path: "/owner",
     icon: dashboardIcon,
     coloredIcon: dashboardIconColored,
   },
   {
-    name: "Add car",
+    name: "Ajouter Une Voiture",
     path: "/owner/add-car",
     icon: addIcon,
     coloredIcon: addIconColored,
   },
   {
-    name: "Manage Cars",
+    name: "Gérer Les Véhicules",
     path: "/owner/manage-cars",
     icon: carIcon,
     coloredIcon: carIconColored,
   },
   {
-    name: "Manage Bookings",
+    name: "Gérer Les Réservations",
     path: "/owner/manage-bookings",
     icon: listIcon,
     coloredIcon: listIconColored,
@@ -148,8 +150,8 @@ export const dummyCarData = [
     seating_capacity: 4,
     fuel_type: "Hybrid",
     transmission: "Semi-Automatic",
-    pricePerDay: 300,
-    location: "New York",
+    pricePerDay: 150000,
+    location: "Bamako Kalaban Coura",
     description:
       "The BMW X5 is a mid-size luxury SUV produced by BMW. The X5 made its debut in 1999 as the first SUV ever produced by BMW.",
     isAvaliable: true,
@@ -166,8 +168,8 @@ export const dummyCarData = [
     seating_capacity: 4,
     fuel_type: "Diesel",
     transmission: "Manual",
-    pricePerDay: 130,
-    location: "Chicago",
+    pricePerDay: 60000,
+    location: "Sikasso",
     description:
       "The Toyota Corolla is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
     isAvaliable: true,
@@ -184,8 +186,8 @@ export const dummyCarData = [
     seating_capacity: 4,
     fuel_type: "Hybrid",
     transmission: "Automatic",
-    pricePerDay: 200,
-    location: "Los Angeles",
+    pricePerDay: 100000,
+    location: "Bougouni",
     description:
       "The Jeep Wrangler is a mid-size luxury SUV produced by Jeep. The Wrangler made its debut in 2003 as the first SUV ever produced by Jeep.",
     isAvaliable: true,
@@ -203,7 +205,7 @@ export const dummyCarData = [
     fuel_type: "Diesel",
     transmission: "Semi-Automatic",
     pricePerDay: 209,
-    location: "Houston",
+    location: "Bamako Hamdalaye",
     description:
       "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
     isAvaliable: true,
@@ -219,8 +221,8 @@ export const dummyMyBookingsData = [
     owner: "6847f7cab3d8daecdb517095",
     pickupDate: "2025-06-13T00:00:00.000Z",
     returnDate: "2025-06-14T00:00:00.000Z",
-    status: "confirmed",
-    price: 440,
+    status: "confirmé",
+    price: 200000,
     createdAt: "2025-06-10T12:57:48.244Z",
   },
   {
@@ -230,8 +232,8 @@ export const dummyMyBookingsData = [
     owner: "67fe3467ed8a8fe17d0ba6e2",
     pickupDate: "2025-06-12T00:00:00.000Z",
     returnDate: "2025-06-12T00:00:00.000Z",
-    status: "pending",
-    price: 130,
+    status: "En attente",
+    price: 60000,
     createdAt: "2025-06-10T12:57:25.613Z",
   },
   {
@@ -241,8 +243,8 @@ export const dummyMyBookingsData = [
     owner: "67fe3467ed8a8fe17d0ba6e2",
     pickupDate: "2025-06-11T00:00:00.000Z",
     returnDate: "2025-06-12T00:00:00.000Z",
-    status: "pending",
-    price: 600,
+    status: "En attente",
+    price: 300000,
     createdAt: "2025-06-10T09:55:06.379Z",
   },
   {
@@ -252,8 +254,8 @@ export const dummyMyBookingsData = [
     owner: "6847f7cab3d8daecdb517095",
     pickupDate: "2025-06-11T00:00:00.000Z",
     returnDate: "2025-06-12T00:00:00.000Z",
-    status: "confirmed",
-    price: 440,
+    status: "confirmé",
+    price: 200000,
     createdAt: "2025-06-10T09:44:25.410Z",
   },
 ];
